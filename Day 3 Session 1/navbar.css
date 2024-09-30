@@ -1,0 +1,35 @@
+.Heading
+{
+    background-color: rgb(30, 255, 0);
+    font-size: 12px;
+}
+
+#heading1
+{
+    color: red;
+}
+
+#heading2
+{
+    color: blue;
+}
+div p
+{
+    color: yellow;
+}
+.fcontainer
+{
+    display: flex ;
+}
+.fitem
+{
+    width: 200px;
+    height: 200px ;
+    background-color: red ;
+    color: brown;
+    margin : 20px;
+    padding : 20px;
+    font-size : 200px;
+
+
+}
