@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic JavaScript Alerts</title>
+</head>
+<body>
+
+<script>
+    // 1. Alert
+    alert("This is an alert message!");
+
+    // 2. Confirm
+    let userConfirmation = confirm("Do you want to proceed?");
+    if (userConfirmation) {
+        alert("You clicked OK!");
+    } else {
+        alert("You clicked Cancel.");
+    }
+
+    // 3. Prompt
+    let userName = prompt("Please enter your name:", "Guest");
+    if (userName) {
+        alert("Hello, " + userName + "!");
+    } else {
+        alert("You didn't enter your name.");
+    }
+</script>
+
+</body>
+</html>
